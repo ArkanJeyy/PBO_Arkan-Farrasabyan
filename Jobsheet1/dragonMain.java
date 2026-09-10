@@ -20,7 +20,7 @@ public class dragonMain {
     dragon2.printStatus();
 
     System.out.println("");
-    dragon2.changeDirection(4);
+    dragon2.changeDirection(2);
     dragon2.move(4);
     dragon2.changeDirection(3);
     dragon2.move(1);
