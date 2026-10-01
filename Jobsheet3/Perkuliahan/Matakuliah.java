@@ -7,7 +7,6 @@ public class Matakuliah {
     private Dosen dosenPengampu;
     private ArrayList<Mahasiswa> daftarMahasiswa;
 
-    // Constructor
     public Matakuliah() {
         this.daftarMahasiswa = new ArrayList<>();
     }
@@ -20,7 +19,6 @@ public class Matakuliah {
         this.daftarMahasiswa = new ArrayList<>();
     }
 
-    // Getter dan Setter
     public String getKodeMK() {
         return kodeMK;
     }
@@ -61,7 +59,6 @@ public class Matakuliah {
         this.daftarMahasiswa = daftarMahasiswa;
     }
 
-    // Method khusus
     public void tambahMahasiswa(Mahasiswa mhs) {
         this.daftarMahasiswa.add(mhs);
     }
@@ -78,6 +75,7 @@ public class Matakuliah {
         } else {
             System.out.println("Belum ada dosen pengampu.");
         }
+
         System.out.println("------------------------------------------");
         System.out.println("Daftar Mahasiswa yang Mengikuti:");
         if (daftarMahasiswa.isEmpty()) {

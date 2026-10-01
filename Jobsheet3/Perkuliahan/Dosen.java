@@ -1,5 +1,4 @@
 
-
 public class Dosen {
   private String nip;
   private String nama;

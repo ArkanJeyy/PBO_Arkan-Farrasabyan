@@ -23,7 +23,6 @@ public class Mahasiswa {
         this.nama = nama;
     }
 
-    // Method khusus
     public void tampilInfoMahasiswa() {
         System.out.println("NIM         : " + nim);
         System.out.println("Nama        : " + nama);
