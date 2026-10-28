@@ -4,7 +4,7 @@ public class MainDemo {
     Deposito deposito2 = new Deposito("101002345","Byan", 2000000, 5.0, 12);
 
     tabungan1.setorSaldo(1000000);
-    System.out.println("=============================================");
+  
     tabungan1.tampilInfo();
     System.out.println("=============================================");
     tabungan1.hitungBunga();
@@ -13,9 +13,8 @@ public class MainDemo {
 
     
     deposito2.tarikSaldo(200000);
-    System.out.println("=============================================");
+    
     deposito2.tampilInfo();
-    deposito2.durasiTenor();
     System.out.println("=============================================");
   }  
 }

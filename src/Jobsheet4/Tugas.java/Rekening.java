@@ -17,7 +17,7 @@ public class Rekening {
     this.saldo = saldo;
     this.bunga = bunga;
   }
-
+  
   public void tarikSaldo(double jumlah) {
     if (jumlah <= saldo) {
       saldo -= jumlah;

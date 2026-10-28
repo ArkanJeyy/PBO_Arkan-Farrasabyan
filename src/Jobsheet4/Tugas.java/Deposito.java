@@ -1,3 +1,5 @@
+package jobs
+
 public class Deposito extends Rekening {
   public double tenor;
 
@@ -19,6 +21,7 @@ public class Deposito extends Rekening {
   public void tampilInfo(){
     System.out.println("=== INFO REKENING DEPOSITO ===");
     super.tampilInfo();
+    durasiTenor();
   }
 
 
