@@ -1,4 +1,4 @@
-package jobs
+package Jobsheet4.Tugas;
 
 public class Deposito extends Rekening {
   public double tenor;
