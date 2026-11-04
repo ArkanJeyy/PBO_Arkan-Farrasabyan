@@ -1,4 +1,3 @@
-package Jobsheet3.Perkuliahan;
 
 import java.util.ArrayList;
 
@@ -73,7 +72,7 @@ public class Matakuliah {
         System.out.println("------------------------------------------");
         System.out.println("Dosen Pengampu:");
         if (dosenPengampu != null) {
-            dosenPengampu.infoDosen();
+            dosenPengampu.tampilInfoDosen;
         } else {
             System.out.println("Belum ada dosen pengampu.");
         }

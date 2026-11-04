@@ -23,7 +23,7 @@ public class Dosen {
     this.nama = nama;
   }
 
-  public void infoDosen() {
+  public void tampilInfoDosen() {
     System.out.println("NIP Dosen  : " + nip);
     System.out.println("Nama Dosen : " + nama);
   }
